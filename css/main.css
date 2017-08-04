@@ -1,0 +1,98 @@
+body{
+    background: #f06226;
+    color: #fff;
+    font-family: sans-serif, Arial;
+    font-size: 14px;
+}
+
+#container{
+    width: 60%;
+    background: #119fda;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+
+header{
+    text-align: center;
+    border-bottom: #fff dashed 2px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: #000;
+    font-size: 125%;
+}
+
+section{
+    min-height: 360px;
+}
+
+footer{
+    text-align: center;
+    color: #000;
+    border-top: #000 solid 2px;
+    font-size: 120%;
+}
+
+input[type='submit']{
+    background: #f06226;
+    color: #fff;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 15px 40%;
+    font-size: 120%;
+}
+
+#results h3{
+    background: #106200;
+    padding: 10px;
+    margin: 10px 0px;
+    border-bottom: solid 1px #000;
+}
+
+#content h3{
+    background: #f06226;
+    padding: 10px;
+    margin: 10px 0px;
+    border-bottom: solid 1px #000;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+#results span{
+    color: #000;
+    font-weight: bold;
+}
+
+.answers{
+    display: none;
+    font-size: 125%;
+    cursor: help;
+}
+
+input[type='radio']{cursor: pointer}
+
+aside input[type='submit']{
+    margin-left: 0;
+    display: inline;
+    clear: left;
+}
+
+aside div{
+    float: right;
+    display: inline;
+    clear: right;
+    margin-top: 20px;
+    background-color: #f06226;
+    font-size: 135%;
+    border: solid 1px #000 ;
+}
